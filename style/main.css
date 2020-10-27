@@ -53,7 +53,7 @@ header nav a:hover{
     font-size: 16px; /* linear-gradiente deixa a imagem com menos luz*/
     background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Imagem-house.png');
 
-    height: 500px;
+    height: 450px;
     background-size: cover;
 
     display: flex;
@@ -67,14 +67,14 @@ header nav a:hover{
 }
 
 .filme-principal .titulo {
-    margin-top: 15%;
+    margin-top: 3%;
     font-size: 50px;
     text-align: center;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botoes {
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 3px 10px;
 }
 
 .botao {
@@ -83,7 +83,7 @@ header nav a:hover{
     color: #fff;
 
     padding: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     font-size: 12px;
 
     cursor: pointer;
@@ -97,6 +97,12 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding: 10px;
 }
 
 
