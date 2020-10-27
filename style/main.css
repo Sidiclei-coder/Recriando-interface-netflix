@@ -23,6 +23,7 @@ body {
 }
 
 header .container {
+    margin: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +31,7 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
+    margin-left: 10px;
     color: var(--vermelha);
     font-family: 'Arisl Black', Times;
     font-size: 40px;
@@ -50,7 +51,7 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 16px; /* linear-gradiente deixa a imagem com menos luz*/
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Imagem-house.png');
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Imagem-house.png');
 
     height: 400px;
     background-size: cover;
@@ -62,12 +63,14 @@ header nav a:hover{
 }
 
 .filme-principal .descricao {
-    margin: 10px 20px 40px 20px;
+    margin: 10px 20px 20px 20px;
 }
 
-.titulo {
+.filme-principal .titulo {
+    margin-top: 15%;
     font-size: 50px;
     text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botoes {
@@ -80,7 +83,7 @@ header nav a:hover{
     color: #fff;
 
     padding: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
     font-size: 12px;
 
     cursor: pointer;
@@ -93,5 +96,17 @@ header nav a:hover{
 }
 
 .botao i {
-    margin-right: 5px;
+    margin-right: 8px;
+}
+
+
+.filme-principal .container {
+    width: 100%;
+    margin: 5px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
