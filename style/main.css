@@ -51,30 +51,34 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 16px; /* linear-gradiente deixa a imagem com menos luz*/
-    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Imagem-house.png');
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)50%), url('/img/Imagem-house.png');
 
-    height: 450px;
-    background-size: cover;
+    
+    height: 500px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+
+    
 }
 
 .filme-principal .descricao {
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .filme-principal .titulo {
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 50px;
     text-align: center;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botoes {
-    margin: 10px 10px 3px 10px;
+    margin: 10px;
 }
 
 .botao {
@@ -84,6 +88,7 @@ header nav a:hover{
 
     padding: 15px;
     margin-right: 5px;
+    margin-top: 10px;
     font-size: 12px;
 
     cursor: pointer;
@@ -103,12 +108,14 @@ header nav a:hover{
     text-align: center;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     padding: 10px;
+    margin-top: 10px;
 }
 
 
 .filme-principal .container {
     width: 100%;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .box-filme {
@@ -118,6 +125,6 @@ header nav a:hover{
 }
 
 .carrosel-filmes {
-    margin-top: 8px;
     height: 100%;
+    margin: 10px;
 }
